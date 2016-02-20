@@ -54,4 +54,4 @@ The code is **licensed** under the **[MIT License](https://github.com/karldahlgr
 
 
 [license]:LICENSE
-[license img]:https://img.shields.io/badge/MIT-License%202-blue.svg
+[license img]:https://img.shields.io/badge/License-MIT-blue.svg
