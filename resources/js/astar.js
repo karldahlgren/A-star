@@ -1,7 +1,7 @@
 /*
  * The MIT License
  *
- * Copyright (c) 2016, Karl Dahlgren
+ * Copyright (c) 2016 Karl Dahlgren
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -445,8 +445,3 @@ function update(){
     d3.timer(update, 5);
     return true;
 }
-
-
-
-
-
