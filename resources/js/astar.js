@@ -71,7 +71,7 @@ var cell = board.selectAll(".cell")
 
 // Register event listeners
 board.on("contextmenu", function(data, index) {
-    d3.event.preventDefault(); // Prevent the menu to be displayed upon right click
+    d3.event.preventDefault(); // Prevent the menu to be displayed upon left click
 });
 
 board.on("mouseup", handleMouseUpEvent);
@@ -115,11 +115,9 @@ function changeClass(cell, clazz){
 
 
 /**
- * The function is responsible for handling the mouse click event. The method
- * will determine if it is a left click or a right click.
+ * The function is responsible for handling the mouse click event.
  *
  * A wall will be drawn in the cell in case of a left click.
- * A right click will remove a wall if it is present.
  *
  * @param cell The cell that gets affected by the click event.
  */
