@@ -8,10 +8,10 @@ The user can then trigger a search for the shortest path. The board will display
 considered to be searched. The shortest path will be displayed if found.
 
 ## Instructions
-* Draw walls: Right click
-* Remove walls: Right click + Left shift
-* Set start point: Right click + Left ctrl
-* Set end point: Right click + Left alt
+* Draw walls: Left click
+* Remove walls: Left click + Left shift
+* Set start point: Left click + Left ctrl
+* Set end point: Left click + Left alt
 * Start search: S
 * Reset search: R
 * Clear walls: C
