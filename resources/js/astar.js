@@ -388,7 +388,7 @@ function sortOpenList(){
  */
 function displayPath(){
     var currentCell = endCell;
-    while(currentCell.parent != null){
+    while(currentCell != startCell){
         changeClass(currentCell, "path");
         currentCell = currentCell.parent;
     }
